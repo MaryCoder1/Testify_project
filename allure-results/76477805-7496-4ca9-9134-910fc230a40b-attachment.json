@@ -1,0 +1,22 @@
+{
+    "Date": "Sat, 22 Feb 2025 08:37:25 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "CF-Ray": "915da7737a4648ac-LHR",
+    "CF-Cache-Status": "DYNAMIC",
+    "Cache-Control": "no-cache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "access-control-expose-headers": "X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset",
+    "badi": "Routing: lon-2=>lon-2; Version: 12a7; Host: 7db6d9f7c-9whmb;",
+    "x-content-type-options": "nosniff",
+    "x-correlation-id": "bd31e18a-37ee-4540-80e7-131fed3eb787",
+    "x-ratelimit-limit": "80",
+    "x-ratelimit-remaining": "75",
+    "x-ratelimit-reset": "2",
+    "x-xss-protection": "1; mode=block",
+    "Vary": "Accept-Encoding",
+    "Server": "cloudflare",
+    "Content-Encoding": "gzip",
+    "alt-svc": "h3=\":443\"; ma=86400"
+}

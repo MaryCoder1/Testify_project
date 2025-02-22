@@ -1,0 +1,1 @@
+{"success":true,"data":{"id":9,"name":"Networked coherent initiative","url_title":"Networked-coherent-initiative","order_nr":3,"active":true,"deal_probability":true,"add_time":"2025-02-22 08:37:44","update_time":"2025-02-22 08:37:44"}}

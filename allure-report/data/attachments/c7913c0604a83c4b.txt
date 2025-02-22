@@ -1,0 +1,6 @@
+{
+  "name": "Networked coherent initiative",
+  "deal_probability": 80,
+  "order_nr": 3,
+  "active": true 
+}

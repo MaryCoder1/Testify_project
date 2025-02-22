@@ -1,0 +1,15 @@
+{
+  "title": "Handcrafted Fresh Fish",
+  "owner_id": 23198693,
+  
+  "person_id": {{person_id_1}},
+  "organization_id": 15,
+  "value": {
+    "amount": 1500000, 
+    "currency": "NGN"
+  },
+  "expected_close_date": "2025-03-09",
+  "visible_to": "3",
+  "was_seen": false,
+  "origin_id": "whatsapp_status"
+}

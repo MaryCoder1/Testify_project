@@ -1,0 +1,34 @@
+{
+  "name": "Foxy brown souvenirs",
+  "owner_id": {{UserID_1}},
+  "org_id": 15,
+  "email": [
+    {
+      "value": "foxybrown",
+      "primary": true,
+      "label": ""
+    },
+    {
+      "value": "",
+      "primary": true,
+      "label": ""
+    }
+  ],
+  "phone": [
+    {
+      "value": "0802345858",
+      "primary": true,
+      "label": ""
+    },
+    {
+      "value": "07012345676",
+      "primary": true,
+      "label": ""
+    }
+  ],
+  "label": "",
+  "label_ids": [],
+  "visible_to": "3",
+  "marketing_status": "",
+  "add_time": "2025-02-22T08:37:34.323Z"
+}

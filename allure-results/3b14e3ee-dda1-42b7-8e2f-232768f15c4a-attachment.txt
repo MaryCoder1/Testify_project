@@ -1,0 +1,8 @@
+{
+  "email": "",
+  "access": [
+    {
+      "app": "sales"    }
+  ],
+  "active_flag": true
+}

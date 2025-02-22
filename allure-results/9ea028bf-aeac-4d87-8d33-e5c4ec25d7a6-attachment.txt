@@ -1,0 +1,10 @@
+{
+  "field_type": "enum",
+  "name": "Lead source",
+  "options": [
+    "web form",
+    "social_media",
+    "google ad"
+  ],
+  "add_visible_flag": true
+}

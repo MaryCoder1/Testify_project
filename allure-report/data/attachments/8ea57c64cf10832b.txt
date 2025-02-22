@@ -1,0 +1,6 @@
+{
+  "name": "Sales pipeline",
+  "deal_probability": 80,
+  "order_nr": 3,
+  "active": 1
+}

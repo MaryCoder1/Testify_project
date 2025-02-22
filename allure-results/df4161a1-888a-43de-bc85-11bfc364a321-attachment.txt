@@ -1,0 +1,1 @@
+{"success":true,"data":{"id":8,"name":"Sales pipeline","url_title":"Sales pipeline3","order_nr":3,"active":true,"deal_probability":true,"add_time":"2025-02-22 08:37:43","update_time":"2025-02-22 08:37:43"}}

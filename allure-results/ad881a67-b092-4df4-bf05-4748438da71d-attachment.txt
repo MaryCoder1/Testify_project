@@ -1,0 +1,7 @@
+{
+  "name": "Negotiation",
+  "pipeline_id": "",
+  "deal_probability": "80",
+  "rotten_flag": "true",
+  "rotten_days": 5
+}

@@ -1,0 +1,15 @@
+//validating Content_type
+pm.test("Content-Type is not missing", function() {
+    let contentType = pm.response.headers.get("Content-Type"); // Correct key
+    pm.expect(contentType, "Content-Type header is missing").to.not.be.undefined;
+});
+
+
+//validating responseTime
+pm.test("Response time is less than 3000ms", function() {
+    pm.expect(pm.response.responseTime).to.be.lessThan(3000);
+})
+
+
+
+

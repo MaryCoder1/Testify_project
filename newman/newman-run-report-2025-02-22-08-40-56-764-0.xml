@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testify_project" tests="80" time="19.959">
+  <testsuite name="Users / Add a user / Add a new user" id="7b8b5028-7bf1-4202-907f-edc3faff6594" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="2" errors="1" time="1.249">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of null (reading 'id')
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="1.249" classname="UsersAddAUserAddANewUser"/>
+    <testcase name="Response time is less than 3000ms" time="1.249" classname="UsersAddAUserAddANewUser"/>
+    <testcase name="Successfully creates new user" time="1.249" classname="UsersAddAUserAddANewUser">
+      <failure type="AssertionFailure" message="expected 400 to equal 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Add a new user.]]>
+        <![CDATA[Test description: Successfully creates new user.]]>
+        <![CDATA[Error message: expected 400 to equal 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 201
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="creation of user is successful" time="1.249" classname="UsersAddAUserAddANewUser">
+      <failure type="AssertionFailure" message="expected false to be true">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Add a new user.]]>
+        <![CDATA[Test description: creation of user is successful.]]>
+        <![CDATA[Error message: expected false to be true.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be true
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Add a user / Inactive user" id="d6f6041f-e550-49e3-88c6-907ff4092349" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="3" errors="0" time="0.276">
+    <testcase name="Content-Type is not missing" time="0.276" classname="UsersAddAUserInactiveUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.276" classname="UsersAddAUserInactiveUser"/>
+    <testcase name="Successfully creates new user" time="0.276" classname="UsersAddAUserInactiveUser">
+      <failure type="AssertionFailure" message="expected 400 to equal 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Inactive user.]]>
+        <![CDATA[Test description: Successfully creates new user.]]>
+        <![CDATA[Error message: expected 400 to equal 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 201
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.276" classname="UsersAddAUserInactiveUser"/>
+    <testcase name="Validate response structure and values" time="0.276" classname="UsersAddAUserInactiveUser">
+      <failure type="AssertionFailure" message="expected false to be true">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Inactive user.]]>
+        <![CDATA[Test description: Validate response structure and values.]]>
+        <![CDATA[Error message: expected false to be true.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be true
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.276" classname="UsersAddAUserInactiveUser">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Inactive user.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Add a user / Forbidden user" id="35ed37b1-c1f5-4e1f-a969-a5d725211611" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="0" errors="0" time="0.247">
+    <testcase name="Content-Type is not missing" time="0.247" classname="UsersAddAUserForbiddenUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.247" classname="UsersAddAUserForbiddenUser"/>
+    <testcase name="Forbidden user status code" time="0.247" classname="UsersAddAUserForbiddenUser"/>
+    <testcase name="validating response body stricture" time="0.247" classname="UsersAddAUserForbiddenUser"/>
+    <testcase name="Response body is an object" time="0.247" classname="UsersAddAUserForbiddenUser"/>
+  </testsuite>
+  <testsuite name="Users / Add a user / Add a new user - negative test case(missing access_app fiield)" id="851f65b2-970b-461e-bd12-0ee66969bc80" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="1" errors="0" time="0.217">
+    <testcase name="Content-Type is not missing" time="0.217" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingAccessAppFiield"/>
+    <testcase name="Response time is less than 3000ms" time="0.217" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingAccessAppFiield"/>
+    <testcase name="This is a bad request, as Access_app is a required field " time="0.217" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingAccessAppFiield"/>
+    <testcase name="Response body is an object" time="0.217" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingAccessAppFiield"/>
+    <testcase name="Access_app is a required field" time="0.217" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingAccessAppFiield">
+      <failure type="AssertionFailure" message="expected 'body/access/0/app must be equal to co…' to include 'Access_app is a required field'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Add a new user - negative test case(missing access_app fiield).]]>
+        <![CDATA[Test description: Access_app is a required field.]]>
+        <![CDATA[Error message: expected 'body/access/0/app must be equal to co…' to include 'Access_app is a required field'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'body/access/0/app must be equal to co…' to include 'Access_app is a required field'
+   at Object.eval sandbox-script.js:3:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validating response body datatype" time="0.217" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingAccessAppFiield"/>
+  </testsuite>
+  <testsuite name="Users / Add a user / Add a new user - negative test case(duplicate email" id="51441e0e-973d-4c65-a3c3-061bc5abc0d5" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="1" errors="0" time="0.219">
+    <testcase name="Content-Type is not missing" time="0.219" classname="UsersAddAUserAddANewUserNegativeTestCaseDuplicateEmail"/>
+    <testcase name="Response time is less than 3000ms" time="0.219" classname="UsersAddAUserAddANewUserNegativeTestCaseDuplicateEmail"/>
+    <testcase name="Email already exist" time="0.219" classname="UsersAddAUserAddANewUserNegativeTestCaseDuplicateEmail">
+      <failure type="AssertionFailure" message="expected 'Provided email not valid.' to include 'Email already exist'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Add a new user - negative test case(duplicate email.]]>
+        <![CDATA[Test description: Email already exist.]]>
+        <![CDATA[Error message: expected 'Provided email not valid.' to include 'Email already exist'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Provided email not valid.' to include 'Email already exist'
+   at Object.eval sandbox-script.js:3:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.219" classname="UsersAddAUserAddANewUserNegativeTestCaseDuplicateEmail"/>
+    <testcase name="Validating response body datatype" time="0.219" classname="UsersAddAUserAddANewUserNegativeTestCaseDuplicateEmail"/>
+  </testsuite>
+  <testsuite name="Users / Add a user / Add a new user - negative test case(missing required field-email)" id="c5478474-4154-4c0c-9dbf-1c5790ba3d74" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="1" errors="0" time="0.261">
+    <testcase name="Content-Type is not missing" time="0.261" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingRequiredFieldEmail"/>
+    <testcase name="Response time is less than 3000ms" time="0.261" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingRequiredFieldEmail"/>
+    <testcase name="This is a bad request, as email is a required field " time="0.261" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingRequiredFieldEmail"/>
+    <testcase name="Response body is an object" time="0.261" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingRequiredFieldEmail"/>
+    <testcase name="Email is a required field" time="0.261" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingRequiredFieldEmail">
+      <failure type="AssertionFailure" message="expected 'Provided email not valid.' to include 'Email is a required field'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Add a user / Add a new user - negative test case(missing required field-email).]]>
+        <![CDATA[Test description: Email is a required field.]]>
+        <![CDATA[Error message: expected 'Provided email not valid.' to include 'Email is a required field'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Provided email not valid.' to include 'Email is a required field'
+   at Object.eval sandbox-script.js:3:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validating response body datatype" time="0.261" classname="UsersAddAUserAddANewUserNegativeTestCaseMissingRequiredFieldEmail"/>
+  </testsuite>
+  <testsuite name="Users / Add a user / Add a new user - negative test case(unauthorized user)" id="cfb72560-f581-4df4-85d9-39289b620754" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.173">
+    <testcase name="Content-Type is not missing" time="0.173" classname="UsersAddAUserAddANewUserNegativeTestCaseUnauthorizedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.173" classname="UsersAddAUserAddANewUserNegativeTestCaseUnauthorizedUser"/>
+    <testcase name="This is an unauthorised user " time="0.173" classname="UsersAddAUserAddANewUserNegativeTestCaseUnauthorizedUser"/>
+    <testcase name="Response body is an object" time="0.173" classname="UsersAddAUserAddANewUserNegativeTestCaseUnauthorizedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.173" classname="UsersAddAUserAddANewUserNegativeTestCaseUnauthorizedUser"/>
+    <testcase name="Validating response body datatype" time="0.173" classname="UsersAddAUserAddANewUserNegativeTestCaseUnauthorizedUser"/>
+  </testsuite>
+  <testsuite name="Users / Get all users / Get all users" id="b69f2b44-e524-4d79-ae3d-7b0f0ba7b0e0" timestamp="2025-02-22T08:40:29.665Z" tests="10" failures="0" errors="0" time="0.268">
+    <testcase name="Content-Type is not missing" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="Response time is less than 3000ms" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="All users retrieved successfully" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="creation of user is successful" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="data type of response body is correct" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="Status code is 200" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="Response body is an object" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="Fail if Content-Type is missing" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+    <testcase name="User list is not empty" time="0.268" classname="UsersGetAllUsersGetAllUsers"/>
+  </testsuite>
+  <testsuite name="Users / Get all users / Get all users - unauthorized user" id="0903f445-f083-41fa-a6a3-899e8f39da16" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="0" errors="0" time="0.213">
+    <testcase name="Content-Type is not missing" time="0.213" classname="UsersGetAllUsersGetAllUsersUnauthorizedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.213" classname="UsersGetAllUsersGetAllUsersUnauthorizedUser"/>
+    <testcase name="This is an unauthorised user " time="0.213" classname="UsersGetAllUsersGetAllUsersUnauthorizedUser"/>
+    <testcase name="Response body is an object" time="0.213" classname="UsersGetAllUsersGetAllUsersUnauthorizedUser"/>
+    <testcase name="Content_type is not missing" time="0.213" classname="UsersGetAllUsersGetAllUsersUnauthorizedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.213" classname="UsersGetAllUsersGetAllUsersUnauthorizedUser"/>
+    <testcase name="Validating response body datatype" time="0.213" classname="UsersGetAllUsersGetAllUsersUnauthorizedUser"/>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Find users by name- when term is fetching result" id="cfe6ac91-2aff-48f0-ad4e-2691246dc7c1" timestamp="2025-02-22T08:40:29.665Z" tests="10" failures="3" errors="0" time="0.217">
+    <testcase name="Content-Type is not missing" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult"/>
+    <testcase name="Response time is less than 3000ms" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult"/>
+    <testcase name="status code is 200" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult"/>
+    <testcase name="operation is successful" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult"/>
+    <testcase name="data type of response body is correct" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'id')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- when term is fetching result.]]>
+        <![CDATA[Test description: data type of response body is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'id').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'id')
+   at Object.eval sandbox-script.js:4:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult"/>
+    <testcase name="User list is not empty" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult">
+      <failure type="AssertionFailure" message="expected +0 to be above +0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- when term is fetching result.]]>
+        <![CDATA[Test description: User list is not empty.]]>
+        <![CDATA[Error message: expected +0 to be above +0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected +0 to be above +0
+   at Object.eval sandbox-script.js:7:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="User email contains search term" time="0.217" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResult">
+      <failure type="AssertionFailure" message="expected [] not to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- when term is fetching result.]]>
+        <![CDATA[Test description: User email contains search term.]]>
+        <![CDATA[Error message: expected [] not to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected [] not to be empty
+   at Object.eval sandbox-script.js:8:10).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Find users by name- full email search" id="01c07ec2-0277-4677-b12d-1dc28a550c43" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="3" errors="0" time="0.206">
+    <testcase name="Content-Type is not missing" time="0.206" classname="UsersGetUserFindByNameFindUsersByNameFullEmailSearch"/>
+    <testcase name="Response time is less than 3000ms" time="0.206" classname="UsersGetUserFindByNameFindUsersByNameFullEmailSearch"/>
+    <testcase name="status code is 200" time="0.206" classname="UsersGetUserFindByNameFindUsersByNameFullEmailSearch"/>
+    <testcase name="creation of user is successful" time="0.206" classname="UsersGetUserFindByNameFindUsersByNameFullEmailSearch"/>
+    <testcase name="data type of response body is correct" time="0.206" classname="UsersGetUserFindByNameFindUsersByNameFullEmailSearch">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'id')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- full email search.]]>
+        <![CDATA[Test description: data type of response body is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'id').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'id')
+   at Object.eval sandbox-script.js:4:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Search term was successful" time="0.206" classname="UsersGetUserFindByNameFindUsersByNameFullEmailSearch">
+      <failure type="AssertionFailure" message="expected [] not to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- full email search.]]>
+        <![CDATA[Test description: Search term was successful.]]>
+        <![CDATA[Error message: expected [] not to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected [] not to be empty
+   at Object.eval sandbox-script.js:5:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="User list is not empty" time="0.206" classname="UsersGetUserFindByNameFindUsersByNameFullEmailSearch">
+      <failure type="AssertionFailure" message="expected +0 to be above +0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- full email search.]]>
+        <![CDATA[Test description: User list is not empty.]]>
+        <![CDATA[Error message: expected +0 to be above +0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected +0 to be above +0
+   at Object.eval sandbox-script.js:6:11).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Find users by name- partial search by email" id="5300fbaa-1740-4be3-bc55-b13fa1646cbe" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="2" errors="0" time="0.225">
+    <testcase name="Content-Type is not missing" time="0.225" classname="UsersGetUserFindByNameFindUsersByNamePartialSearchByEmail"/>
+    <testcase name="Response time is less than 3000ms" time="0.225" classname="UsersGetUserFindByNameFindUsersByNamePartialSearchByEmail"/>
+    <testcase name="creation of user is successful" time="0.225" classname="UsersGetUserFindByNameFindUsersByNamePartialSearchByEmail"/>
+    <testcase name="data type of response body is correct" time="0.225" classname="UsersGetUserFindByNameFindUsersByNamePartialSearchByEmail">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'id')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- partial search by email.]]>
+        <![CDATA[Test description: data type of response body is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'id').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'id')
+   at Object.eval sandbox-script.js:2:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.225" classname="UsersGetUserFindByNameFindUsersByNamePartialSearchByEmail"/>
+    <testcase name="Response body is valid JSON" time="0.225" classname="UsersGetUserFindByNameFindUsersByNamePartialSearchByEmail"/>
+    <testcase name="User list is not empty" time="0.225" classname="UsersGetUserFindByNameFindUsersByNamePartialSearchByEmail">
+      <failure type="AssertionFailure" message="expected +0 to be above +0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- partial search by email.]]>
+        <![CDATA[Test description: User list is not empty.]]>
+        <![CDATA[Error message: expected +0 to be above +0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected +0 to be above +0
+   at Object.eval sandbox-script.js:5:12).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Missing required parameter" id="3a48d4db-d745-4f5a-a6d8-293eb0223101" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="0" errors="0" time="0.235">
+    <testcase name="Content-Type is not missing" time="0.235" classname="UsersGetUserFindByNameMissingRequiredParameter"/>
+    <testcase name="Response time is less than 3000ms" time="0.235" classname="UsersGetUserFindByNameMissingRequiredParameter"/>
+    <testcase name="Fails when 'term' parameter is missing" time="0.235" classname="UsersGetUserFindByNameMissingRequiredParameter"/>
+    <testcase name="response body is in aliance with data structure" time="0.235" classname="UsersGetUserFindByNameMissingRequiredParameter"/>
+    <testcase name="Error message is well spelt out" time="0.235" classname="UsersGetUserFindByNameMissingRequiredParameter"/>
+    <testcase name="responseTime is less than 3000ms" time="0.235" classname="UsersGetUserFindByNameMissingRequiredParameter"/>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Wrong parameter" id="bf9f023e-dac4-403c-a30a-7284103b588a" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="3" errors="0" time="0.223">
+    <testcase name="Content-Type is not missing" time="0.223" classname="UsersGetUserFindByNameWrongParameter"/>
+    <testcase name="Response time is less than 3000ms" time="0.223" classname="UsersGetUserFindByNameWrongParameter"/>
+    <testcase name="Fails when wrong parameter is passed" time="0.223" classname="UsersGetUserFindByNameWrongParameter">
+      <failure type="AssertionFailure" message="expected 200 to be one of [ 400, 422 ]">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Wrong parameter.]]>
+        <![CDATA[Test description: Fails when wrong parameter is passed.]]>
+        <![CDATA[Error message: expected 200 to be one of [ 400, 422 ].]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to be one of [ 400, 422 ]
+   at Object.eval sandbox-script.js:1:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="response body is in aliance with data structure" time="0.223" classname="UsersGetUserFindByNameWrongParameter">
+      <failure type="AssertionFailure" message="expected true to be false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Wrong parameter.]]>
+        <![CDATA[Test description: response body is in aliance with data structure.]]>
+        <![CDATA[Error message: expected true to be false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected true to be false
+   at Object.eval sandbox-script.js:2:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error message is well spelt out" time="0.223" classname="UsersGetUserFindByNameWrongParameter">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Wrong parameter.]]>
+        <![CDATA[Test description: Error message is well spelt out.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:14).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Find users by name- when term is not fetching result" id="67436a8c-45f1-4331-b2e6-577e38f654a8" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="0" errors="0" time="0.209">
+    <testcase name="Content-Type is not missing" time="0.209" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsNotFetchingResult"/>
+    <testcase name="Response time is less than 3000ms" time="0.209" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsNotFetchingResult"/>
+    <testcase name="operation  is successful" time="0.209" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsNotFetchingResult"/>
+    <testcase name="Status code is 200" time="0.209" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsNotFetchingResult"/>
+    <testcase name="Response body valdaition" time="0.209" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsNotFetchingResult"/>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Find users by name- when term is fetching result[CASE_SENSIIVITY]" id="dbcd7118-deb4-4010-993d-e5a7b214c271" timestamp="2025-02-22T08:40:29.665Z" tests="9" failures="2" errors="0" time="0.236">
+    <testcase name="Content-Type is not missing" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity"/>
+    <testcase name="Response time is less than 3000ms" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity"/>
+    <testcase name="status code is 200" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity"/>
+    <testcase name="Fetching of user is successful" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity"/>
+    <testcase name="data type of response body is correct" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'id')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- when term is fetching result[CASE_SENSIIVITY].]]>
+        <![CDATA[Test description: data type of response body is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'id').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'id')
+   at Object.eval sandbox-script.js:3:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity"/>
+    <testcase name="Response body is valid JSON" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity"/>
+    <testcase name="User list is not empty" time="0.236" classname="UsersGetUserFindByNameFindUsersByNameWhenTermIsFetchingResultCaseSensiivity">
+      <failure type="AssertionFailure" message="expected +0 to be above +0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get user- find by name / Find users by name- when term is fetching result[CASE_SENSIIVITY].]]>
+        <![CDATA[Test description: User list is not empty.]]>
+        <![CDATA[Error message: expected +0 to be above +0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected +0 to be above +0
+   at Object.eval sandbox-script.js:7:16).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Get user- find by name / Get all users - unauthorized user" id="37b5a8ea-8a02-45d4-b1ac-94c647bb3799" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="0" errors="0" time="0.184">
+    <testcase name="Content-Type is not missing" time="0.184" classname="UsersGetUserFindByNameGetAllUsersUnauthorizedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.184" classname="UsersGetUserFindByNameGetAllUsersUnauthorizedUser"/>
+    <testcase name="This is an unauthorised user " time="0.184" classname="UsersGetUserFindByNameGetAllUsersUnauthorizedUser"/>
+    <testcase name="Response body is an object" time="0.184" classname="UsersGetUserFindByNameGetAllUsersUnauthorizedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.184" classname="UsersGetUserFindByNameGetAllUsersUnauthorizedUser"/>
+    <testcase name="Validating response body datatype" time="0.184" classname="UsersGetUserFindByNameGetAllUsersUnauthorizedUser"/>
+    <testcase name="Response body is valid JSON" time="0.184" classname="UsersGetUserFindByNameGetAllUsersUnauthorizedUser"/>
+  </testsuite>
+  <testsuite name="Users / Get current user data / Get current user data- positive test case" id="693983e3-0aa9-47ce-805d-2f2752887814" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="1" errors="0" time="0.312">
+    <testcase name="Content-Type is not missing" time="0.312" classname="UsersGetCurrentUserDataGetCurrentUserDataPositiveTestCase"/>
+    <testcase name="Response time is less than 3000ms" time="0.312" classname="UsersGetCurrentUserDataGetCurrentUserDataPositiveTestCase"/>
+    <testcase name="data type of response body is correct" time="0.312" classname="UsersGetCurrentUserDataGetCurrentUserDataPositiveTestCase">
+      <failure type="AssertionFailure" message="expected null to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get current user data / Get current user data- positive test case.]]>
+        <![CDATA[Test description: data type of response body is correct.]]>
+        <![CDATA[Error message: expected null to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected null to be a string
+   at Object.eval sandbox-script.js:1:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="status code is 200" time="0.312" classname="UsersGetCurrentUserDataGetCurrentUserDataPositiveTestCase"/>
+  </testsuite>
+  <testsuite name="Users / Get current user data / Get current user data- Invalid bearer token" id="56dab4e8-e247-46da-9299-f615667785b4" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="0" errors="0" time="0.225">
+    <testcase name="Content-Type is not missing" time="0.225" classname="UsersGetCurrentUserDataGetCurrentUserDataInvalidBearerToken"/>
+    <testcase name="Response time is less than 3000ms" time="0.225" classname="UsersGetCurrentUserDataGetCurrentUserDataInvalidBearerToken"/>
+    <testcase name="This is an unauthorised user " time="0.225" classname="UsersGetCurrentUserDataGetCurrentUserDataInvalidBearerToken"/>
+    <testcase name="Response body is an object" time="0.225" classname="UsersGetCurrentUserDataGetCurrentUserDataInvalidBearerToken"/>
+    <testcase name="Endpoint requires authentication" time="0.225" classname="UsersGetCurrentUserDataGetCurrentUserDataInvalidBearerToken"/>
+    <testcase name="Validating response body datatype" time="0.225" classname="UsersGetCurrentUserDataGetCurrentUserDataInvalidBearerToken"/>
+    <testcase name="Response body is valid JSON" time="0.225" classname="UsersGetCurrentUserDataGetCurrentUserDataInvalidBearerToken"/>
+  </testsuite>
+  <testsuite name="Users / Get current user data / Get current user data- Missing bearer token" id="c1673556-5eba-48a2-b221-bdeb8035ae9d" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="0" errors="0" time="0.211">
+    <testcase name="Content-Type is not missing" time="0.211" classname="UsersGetCurrentUserDataGetCurrentUserDataMissingBearerToken"/>
+    <testcase name="Response time is less than 3000ms" time="0.211" classname="UsersGetCurrentUserDataGetCurrentUserDataMissingBearerToken"/>
+    <testcase name="This is an unauthorised user " time="0.211" classname="UsersGetCurrentUserDataGetCurrentUserDataMissingBearerToken"/>
+    <testcase name="Response body is an object" time="0.211" classname="UsersGetCurrentUserDataGetCurrentUserDataMissingBearerToken"/>
+    <testcase name="Endpoint requires authentication" time="0.211" classname="UsersGetCurrentUserDataGetCurrentUserDataMissingBearerToken"/>
+    <testcase name="Validating response body datatype" time="0.211" classname="UsersGetCurrentUserDataGetCurrentUserDataMissingBearerToken"/>
+    <testcase name="Response body is valid JSON" time="0.211" classname="UsersGetCurrentUserDataGetCurrentUserDataMissingBearerToken"/>
+  </testsuite>
+  <testsuite name="Users / Get one user / Get one user" id="e186a00b-1086-4fe7-ad0b-dc479825a528" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="2" errors="1" time="0.190">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'id')
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.190" classname="UsersGetOneUserGetOneUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.190" classname="UsersGetOneUserGetOneUser"/>
+    <testcase name="Successful operation" time="0.190" classname="UsersGetOneUserGetOneUser">
+      <failure type="AssertionFailure" message="expected 404 to equal 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get one user / Get one user.]]>
+        <![CDATA[Test description: Successful operation.]]>
+        <![CDATA[Error message: expected 404 to equal 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 404 to equal 200
+   at Object.eval sandbox-script.js:1:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="creation of user is successful" time="0.190" classname="UsersGetOneUserGetOneUser">
+      <failure type="AssertionFailure" message="expected undefined to be true">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get one user / Get one user.]]>
+        <![CDATA[Test description: creation of user is successful.]]>
+        <![CDATA[Error message: expected undefined to be true.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be true
+   at Object.eval sandbox-script.js:2:21).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Get one user / Non - existing user" id="87c5918b-a3f0-45b7-bf52-e8b42ea021f9" timestamp="2025-02-22T08:40:29.665Z" tests="9" failures="1" errors="0" time="0.258">
+    <testcase name="Content-Type is not missing" time="0.258" classname="UsersGetOneUserNonExistingUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.258" classname="UsersGetOneUserNonExistingUser"/>
+    <testcase name="User does not exist" time="0.258" classname="UsersGetOneUserNonExistingUser">
+      <failure type="AssertionFailure" message="expected 400 to equal 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get one user / Non - existing user.]]>
+        <![CDATA[Test description: User does not exist.]]>
+        <![CDATA[Error message: expected 400 to equal 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 404
+   at Object.eval sandbox-script.js:1:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.258" classname="UsersGetOneUserNonExistingUser"/>
+    <testcase name="User doesn't belong to company field" time="0.258" classname="UsersGetOneUserNonExistingUser"/>
+    <testcase name="Validating response body datatype" time="0.258" classname="UsersGetOneUserNonExistingUser"/>
+    <testcase name="validating response message" time="0.258" classname="UsersGetOneUserNonExistingUser"/>
+    <testcase name="Response body is valid JSON" time="0.258" classname="UsersGetOneUserNonExistingUser"/>
+  </testsuite>
+  <testsuite name="Users / Get one user / Unauthorised user" id="b62388d5-d7d9-4a75-ad5a-d08799211aaf" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="0" errors="0" time="0.232">
+    <testcase name="Content-Type is not missing" time="0.232" classname="UsersGetOneUserUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.232" classname="UsersGetOneUserUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.232" classname="UsersGetOneUserUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.232" classname="UsersGetOneUserUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.232" classname="UsersGetOneUserUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.232" classname="UsersGetOneUserUnauthorisedUser"/>
+    <testcase name="Response body is valid JSON" time="0.232" classname="UsersGetOneUserUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Users / Get one user / Invalid parameter" id="36650dce-6976-4721-8f95-89d3c52445b4" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="3" errors="0" time="0.232">
+    <testcase name="Content-Type is not missing" time="0.232" classname="UsersGetOneUserInvalidParameter"/>
+    <testcase name="Response time is less than 3000ms" time="0.232" classname="UsersGetOneUserInvalidParameter"/>
+    <testcase name="Fails when id is less than 1" time="0.232" classname="UsersGetOneUserInvalidParameter">
+      <failure type="AssertionFailure" message="expected 404 to be one of [ 400, 422 ]">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get one user / Invalid parameter.]]>
+        <![CDATA[Test description: Fails when id is less than 1.]]>
+        <![CDATA[Error message: expected 404 to be one of [ 400, 422 ].]]>
+        <![CDATA[Stacktrace: AssertionError: expected 404 to be one of [ 400, 422 ]
+   at Object.eval sandbox-script.js:1:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="response body is in aliance with data structure" time="0.232" classname="UsersGetOneUserInvalidParameter">
+      <failure type="AssertionFailure" message="expected undefined to be false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get one user / Invalid parameter.]]>
+        <![CDATA[Test description: response body is in aliance with data structure.]]>
+        <![CDATA[Error message: expected undefined to be false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be false
+   at Object.eval sandbox-script.js:2:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error message is well spelt out" time="0.232" classname="UsersGetOneUserInvalidParameter">
+      <failure type="AssertionFailure" message="expected 'Unknown method .' to include 'params/userId must be >= 1'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get one user / Invalid parameter.]]>
+        <![CDATA[Test description: Error message is well spelt out.]]>
+        <![CDATA[Error message: expected 'Unknown method .' to include 'params/userId must be >= 1'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Unknown method .' to include 'params/userId must be >= 1'
+   at Object.eval sandbox-script.js:3:24).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Users / Get one user / Wrong request method" id="1926ab0b-0ffc-4f1f-a8ae-42ba862fd0bd" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="1" errors="0" time="0.220">
+    <testcase name="Content-Type is not missing" time="0.220" classname="UsersGetOneUserWrongRequestMethod"/>
+    <testcase name="Response time is less than 3000ms" time="0.220" classname="UsersGetOneUserWrongRequestMethod"/>
+    <testcase name="Wrong request method" time="0.220" classname="UsersGetOneUserWrongRequestMethod">
+      <failure type="AssertionFailure" message="expected 404 to equal 405">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Users / Get one user / Wrong request method.]]>
+        <![CDATA[Test description: Wrong request method.]]>
+        <![CDATA[Error message: expected 404 to equal 405.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 404 to equal 405
+   at Object.eval sandbox-script.js:1:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="response body is in aliance with data structure" time="0.220" classname="UsersGetOneUserWrongRequestMethod"/>
+    <testcase name="Error message is well spelt out" time="0.220" classname="UsersGetOneUserWrongRequestMethod"/>
+  </testsuite>
+  <testsuite name="Organizations / Add an organization / Add an organization" id="c3f190a4-eb97-4584-a2d4-67cfb121fd0f" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.221">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'id')
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.221" classname="OrganizationsAddAnOrganizationAddAnOrganization"/>
+    <testcase name="Response time is less than 3000ms" time="0.221" classname="OrganizationsAddAnOrganizationAddAnOrganization"/>
+  </testsuite>
+  <testsuite name="Organizations / Add an organization / Add an organization - invalid request(missing organization name)" id="2c6312c0-a888-4aab-b4eb-91b1c8ea756c" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="2" errors="0" time="0.203">
+    <testcase name="Content-Type is not missing" time="0.203" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationName"/>
+    <testcase name="Response time is less than 3000ms" time="0.203" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationName"/>
+    <testcase name="Valid response body datatype" time="0.203" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationName">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - invalid request(missing organization name).]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.203" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationName">
+      <failure type="AssertionFailure" message="expected undefined to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - invalid request(missing organization name).]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected undefined to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal false
+   at Object.eval sandbox-script.js:2:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.203" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationName"/>
+  </testsuite>
+  <testsuite name="Organizations / Add an organization / Add an organization - unauthorized" id="3edecb29-a22d-427d-ab02-5105f40cd5eb" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="0" errors="0" time="0.176">
+    <testcase name="Content-Type is not missing" time="0.176" classname="OrganizationsAddAnOrganizationAddAnOrganizationUnauthorized"/>
+    <testcase name="Response time is less than 3000ms" time="0.176" classname="OrganizationsAddAnOrganizationAddAnOrganizationUnauthorized"/>
+    <testcase name="This is an unauthorised user " time="0.176" classname="OrganizationsAddAnOrganizationAddAnOrganizationUnauthorized"/>
+    <testcase name="Response body is an object" time="0.176" classname="OrganizationsAddAnOrganizationAddAnOrganizationUnauthorized"/>
+    <testcase name="Content_type is not missing" time="0.176" classname="OrganizationsAddAnOrganizationAddAnOrganizationUnauthorized"/>
+    <testcase name="Endpoint requires authentication" time="0.176" classname="OrganizationsAddAnOrganizationAddAnOrganizationUnauthorized"/>
+    <testcase name="Validating response body datatype" time="0.176" classname="OrganizationsAddAnOrganizationAddAnOrganizationUnauthorized"/>
+  </testsuite>
+  <testsuite name="Organizations / Add an organization / Add an organization - invalid request(missing organization name field)" id="d045230e-cf3a-465a-be27-7c94122be8e8" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="2" errors="0" time="0.278">
+    <testcase name="Content-Type is not missing" time="0.278" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationNameField"/>
+    <testcase name="Response time is less than 3000ms" time="0.278" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationNameField"/>
+    <testcase name="Valid response body datatype" time="0.278" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationNameField">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - invalid request(missing organization name field).]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:29).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.278" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationNameField">
+      <failure type="AssertionFailure" message="expected undefined to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - invalid request(missing organization name field).]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected undefined to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal false
+   at Object.eval sandbox-script.js:2:29).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.278" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestMissingOrganizationNameField"/>
+  </testsuite>
+  <testsuite name="Organizations / Add an organization / Add an organization - invalid request(wrong datatype organization name)" id="b56a3d40-8903-4ff2-9f76-dd101304d04a" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="2" errors="0" time="0.225">
+    <testcase name="Content-Type is not missing" time="0.225" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestWrongDatatypeOrganizationName"/>
+    <testcase name="Response time is less than 3000ms" time="0.225" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestWrongDatatypeOrganizationName"/>
+    <testcase name="Valid response body datatype" time="0.225" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestWrongDatatypeOrganizationName">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - invalid request(wrong datatype organization name).]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:30).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.225" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestWrongDatatypeOrganizationName">
+      <failure type="AssertionFailure" message="expected undefined to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - invalid request(wrong datatype organization name).]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected undefined to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal false
+   at Object.eval sandbox-script.js:2:30).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.225" classname="OrganizationsAddAnOrganizationAddAnOrganizationInvalidRequestWrongDatatypeOrganizationName"/>
+  </testsuite>
+  <testsuite name="Organizations / Add an organization / Add an organization - not existing user" id="469c7fc1-2fab-4f22-b13b-c90f7c2fda6a" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="4" errors="0" time="0.241">
+    <testcase name="Content-Type is not missing" time="0.241" classname="OrganizationsAddAnOrganizationAddAnOrganizationNotExistingUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.241" classname="OrganizationsAddAnOrganizationAddAnOrganizationNotExistingUser"/>
+    <testcase name="Valid response body datatype" time="0.241" classname="OrganizationsAddAnOrganizationAddAnOrganizationNotExistingUser">
+      <failure type="AssertionFailure" message="expected undefined to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - not existing user.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a string
+   at Object.eval sandbox-script.js:1:31).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.241" classname="OrganizationsAddAnOrganizationAddAnOrganizationNotExistingUser">
+      <failure type="AssertionFailure" message="expected true to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - not existing user.]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected true to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected true to equal false
+   at Object.eval sandbox-script.js:2:31).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.241" classname="OrganizationsAddAnOrganizationAddAnOrganizationNotExistingUser">
+      <failure type="AssertionFailure" message="expected 201 to be one of [ 400, 422 ]">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - not existing user.]]>
+        <![CDATA[Test description: Bad request!.]]>
+        <![CDATA[Error message: expected 201 to be one of [ 400, 422 ].]]>
+        <![CDATA[Stacktrace: AssertionError: expected 201 to be one of [ 400, 422 ]
+   at Object.eval sandbox-script.js:3:31).]]>
+      </failure>
+    </testcase>
+    <testcase name="Organization ID should not be present" time="0.241" classname="OrganizationsAddAnOrganizationAddAnOrganizationNotExistingUser">
+      <failure type="AssertionFailure" message="expected { id: 21, company_id: null, …(52) } to not have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - not existing user.]]>
+        <![CDATA[Test description: Organization ID should not be present.]]>
+        <![CDATA[Error message: expected { id: 21, company_id: null, …(52) } to not have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 21, company_id: null, …(52) } to not have property 'id'
+   at Object.eval sandbox-script.js:4:31).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Organizations / Add an organization / Add an organization - inactive user" id="7084951d-8660-460e-8a13-5aa5378c336a" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="4" errors="0" time="0.208">
+    <testcase name="Content-Type is not missing" time="0.208" classname="OrganizationsAddAnOrganizationAddAnOrganizationInactiveUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.208" classname="OrganizationsAddAnOrganizationAddAnOrganizationInactiveUser"/>
+    <testcase name="Valid response body datatype" time="0.208" classname="OrganizationsAddAnOrganizationAddAnOrganizationInactiveUser">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - inactive user.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:32).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.208" classname="OrganizationsAddAnOrganizationAddAnOrganizationInactiveUser">
+      <failure type="AssertionFailure" message="expected undefined to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - inactive user.]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected undefined to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal false
+   at Object.eval sandbox-script.js:2:32).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.208" classname="OrganizationsAddAnOrganizationAddAnOrganizationInactiveUser">
+      <failure type="AssertionFailure" message="expected 400 to equal 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - inactive user.]]>
+        <![CDATA[Test description: Bad request!.]]>
+        <![CDATA[Error message: expected 400 to equal 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 403
+   at Object.eval sandbox-script.js:3:32).]]>
+      </failure>
+    </testcase>
+    <testcase name="Organization ID should not be present" time="0.208" classname="OrganizationsAddAnOrganizationAddAnOrganizationInactiveUser">
+      <failure type="AssertionFailure" message="Target cannot be null or undefined.">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Add an organization / Add an organization - inactive user.]]>
+        <![CDATA[Test description: Organization ID should not be present.]]>
+        <![CDATA[Error message: Target cannot be null or undefined..]]>
+        <![CDATA[Stacktrace: AssertionError: Target cannot be null or undefined.
+   at Object.eval sandbox-script.js:4:32).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Organizations / Get all organization / Get all organizations" id="0f93a432-9a50-4910-8730-7d076f7e3209" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="1" errors="0" time="0.250">
+    <testcase name="Content-Type is not missing" time="0.250" classname="OrganizationsGetAllOrganizationGetAllOrganizations"/>
+    <testcase name="Response time is less than 3000ms" time="0.250" classname="OrganizationsGetAllOrganizationGetAllOrganizations"/>
+    <testcase name="Valid response body datatype" time="0.250" classname="OrganizationsGetAllOrganizationGetAllOrganizations">
+      <failure type="AssertionFailure" message="expected null to be a number">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Organizations / Get all organization / Get all organizations.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected null to be a number.]]>
+        <![CDATA[Stacktrace: AssertionError: expected null to be a number
+   at Object.eval sandbox-script.js:1:33).]]>
+      </failure>
+    </testcase>
+    <testcase name="dynamic structure is correct" time="0.250" classname="OrganizationsGetAllOrganizationGetAllOrganizations"/>
+    <testcase name="Resource created successfully" time="0.250" classname="OrganizationsGetAllOrganizationGetAllOrganizations"/>
+  </testsuite>
+  <testsuite name="Organizations / Get all organization / Get all organizations - unauthorized" id="64a36b30-d159-4485-948a-f730bf702128" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="0" errors="0" time="0.173">
+    <testcase name="Content-Type is not missing" time="0.173" classname="OrganizationsGetAllOrganizationGetAllOrganizationsUnauthorized"/>
+    <testcase name="Response time is less than 3000ms" time="0.173" classname="OrganizationsGetAllOrganizationGetAllOrganizationsUnauthorized"/>
+    <testcase name="This is an unauthorised user " time="0.173" classname="OrganizationsGetAllOrganizationGetAllOrganizationsUnauthorized"/>
+    <testcase name="Response body is an object" time="0.173" classname="OrganizationsGetAllOrganizationGetAllOrganizationsUnauthorized"/>
+    <testcase name="Content_type is not missing" time="0.173" classname="OrganizationsGetAllOrganizationGetAllOrganizationsUnauthorized"/>
+    <testcase name="Endpoint requires authentication" time="0.173" classname="OrganizationsGetAllOrganizationGetAllOrganizationsUnauthorized"/>
+    <testcase name="Validating response body datatype" time="0.173" classname="OrganizationsGetAllOrganizationGetAllOrganizationsUnauthorized"/>
+  </testsuite>
+  <testsuite name="Persons / Add person / Add a person" id="baba89cf-9777-4468-ab8e-1f1122248081" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.210">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'id')
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.210" classname="PersonsAddPersonAddAPerson"/>
+    <testcase name="Response time is less than 3000ms" time="0.210" classname="PersonsAddPersonAddAPerson"/>
+  </testsuite>
+  <testsuite name="Persons / Add person / Add a person - inactive user" id="1eb5a32a-9aa2-47b8-a828-192e50489516" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.219">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'id')
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.219" classname="PersonsAddPersonAddAPersonInactiveUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.219" classname="PersonsAddPersonAddAPersonInactiveUser"/>
+  </testsuite>
+  <testsuite name="Persons / Add person / Add a person - datatype enforcement" id="5768ce75-1604-4a96-951d-6f2b1d76f88d" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="2" errors="0" time="0.238">
+    <testcase name="Content-Type is not missing" time="0.238" classname="PersonsAddPersonAddAPersonDatatypeEnforcement"/>
+    <testcase name="Response time is less than 3000ms" time="0.238" classname="PersonsAddPersonAddAPersonDatatypeEnforcement"/>
+    <testcase name="Valid response body datatype" time="0.238" classname="PersonsAddPersonAddAPersonDatatypeEnforcement">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - datatype enforcement.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:37).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.238" classname="PersonsAddPersonAddAPersonDatatypeEnforcement">
+      <failure type="AssertionFailure" message="expected undefined to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - datatype enforcement.]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected undefined to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal false
+   at Object.eval sandbox-script.js:2:37).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.238" classname="PersonsAddPersonAddAPersonDatatypeEnforcement"/>
+  </testsuite>
+  <testsuite name="Persons / Add person / Add a person - unauthorised_user" id="626e1f95-b579-4959-8297-4568a6f226b8" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.211">
+    <testcase name="Content-Type is not missing" time="0.211" classname="PersonsAddPersonAddAPersonUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.211" classname="PersonsAddPersonAddAPersonUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.211" classname="PersonsAddPersonAddAPersonUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.211" classname="PersonsAddPersonAddAPersonUnauthorisedUser"/>
+    <testcase name="Content_type is not missing" time="0.211" classname="PersonsAddPersonAddAPersonUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.211" classname="PersonsAddPersonAddAPersonUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.211" classname="PersonsAddPersonAddAPersonUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Persons / Add person / Add a person - invalid email" id="69aad849-b34c-486e-a5eb-48c43064a20c" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="4" errors="0" time="0.310">
+    <testcase name="Content-Type is not missing" time="0.310" classname="PersonsAddPersonAddAPersonInvalidEmail"/>
+    <testcase name="Response time is less than 3000ms" time="0.310" classname="PersonsAddPersonAddAPersonInvalidEmail"/>
+    <testcase name="Valid response body datatype" time="0.310" classname="PersonsAddPersonAddAPersonInvalidEmail">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid email.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:39).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.310" classname="PersonsAddPersonAddAPersonInvalidEmail">
+      <failure type="AssertionFailure" message="expected undefined to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid email.]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected undefined to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal false
+   at Object.eval sandbox-script.js:2:39).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.310" classname="PersonsAddPersonAddAPersonInvalidEmail">
+      <failure type="AssertionFailure" message="expected 400 to equal 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid email.]]>
+        <![CDATA[Test description: Bad request!.]]>
+        <![CDATA[Error message: expected 400 to equal 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 403
+   at Object.eval sandbox-script.js:3:39).]]>
+      </failure>
+    </testcase>
+    <testcase name="peron ID should not be present" time="0.310" classname="PersonsAddPersonAddAPersonInvalidEmail">
+      <failure type="AssertionFailure" message="Target cannot be null or undefined.">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid email.]]>
+        <![CDATA[Test description: peron ID should not be present.]]>
+        <![CDATA[Error message: Target cannot be null or undefined..]]>
+        <![CDATA[Stacktrace: AssertionError: Target cannot be null or undefined.
+   at Object.eval sandbox-script.js:4:39).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Persons / Add person / Add a person - invalid user" id="bbeb81cf-bc80-4110-98a1-c6331767a5db" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="4" errors="0" time="0.239">
+    <testcase name="Content-Type is not missing" time="0.239" classname="PersonsAddPersonAddAPersonInvalidUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.239" classname="PersonsAddPersonAddAPersonInvalidUser"/>
+    <testcase name="Valid response body datatype" time="0.239" classname="PersonsAddPersonAddAPersonInvalidUser">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid user.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:40).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.239" classname="PersonsAddPersonAddAPersonInvalidUser">
+      <failure type="AssertionFailure" message="expected undefined to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid user.]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected undefined to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal false
+   at Object.eval sandbox-script.js:2:40).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.239" classname="PersonsAddPersonAddAPersonInvalidUser">
+      <failure type="AssertionFailure" message="expected 400 to equal 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid user.]]>
+        <![CDATA[Test description: Bad request!.]]>
+        <![CDATA[Error message: expected 400 to equal 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 403
+   at Object.eval sandbox-script.js:3:40).]]>
+      </failure>
+    </testcase>
+    <testcase name="peron ID should not be present" time="0.239" classname="PersonsAddPersonAddAPersonInvalidUser">
+      <failure type="AssertionFailure" message="Target cannot be null or undefined.">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid user.]]>
+        <![CDATA[Test description: peron ID should not be present.]]>
+        <![CDATA[Error message: Target cannot be null or undefined..]]>
+        <![CDATA[Stacktrace: AssertionError: Target cannot be null or undefined.
+   at Object.eval sandbox-script.js:4:40).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Persons / Add person / Add a person - invalid user Copy" id="0b424d41-e4a3-41ce-8178-1b83c6112770" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="3" errors="0" time="0.308">
+    <testcase name="Content-Type is not missing" time="0.308" classname="PersonsAddPersonAddAPersonInvalidUserCopy"/>
+    <testcase name="Response time is less than 3000ms" time="0.308" classname="PersonsAddPersonAddAPersonInvalidUserCopy"/>
+    <testcase name="validate response body and structure" time="0.308" classname="PersonsAddPersonAddAPersonInvalidUserCopy">
+      <failure type="AssertionFailure" message="expected { status: false, …(1) } to have property 'success'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid user Copy.]]>
+        <![CDATA[Test description: validate response body and structure.]]>
+        <![CDATA[Error message: expected { status: false, …(1) } to have property 'success'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { status: false, …(1) } to have property 'success'
+   at Object.eval sandbox-script.js:1:41).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.308" classname="PersonsAddPersonAddAPersonInvalidUserCopy">
+      <failure type="AssertionFailure" message="expected 400 to equal 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid user Copy.]]>
+        <![CDATA[Test description: Bad request!.]]>
+        <![CDATA[Error message: expected 400 to equal 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 403
+   at Object.eval sandbox-script.js:2:41).]]>
+      </failure>
+    </testcase>
+    <testcase name="person ID should not be present" time="0.308" classname="PersonsAddPersonAddAPersonInvalidUserCopy">
+      <failure type="AssertionFailure" message="Target cannot be null or undefined.">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / Add person / Add a person - invalid user Copy.]]>
+        <![CDATA[Test description: person ID should not be present.]]>
+        <![CDATA[Error message: Target cannot be null or undefined..]]>
+        <![CDATA[Stacktrace: AssertionError: Target cannot be null or undefined.
+   at Object.eval sandbox-script.js:3:41).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Persons / get all persons / Get all persons invalid parameters" id="b319b88c-937c-43a2-acda-509c0ef55aa8" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="4" errors="0" time="0.265">
+    <testcase name="Content-Type is not missing" time="0.265" classname="PersonsGetAllPersonsGetAllPersonsInvalidParameters"/>
+    <testcase name="Response time is less than 3000ms" time="0.265" classname="PersonsGetAllPersonsGetAllPersonsInvalidParameters"/>
+    <testcase name="Response should not contain data" time="0.265" classname="PersonsGetAllPersonsGetAllPersonsInvalidParameters">
+      <failure type="AssertionFailure" message="expected { Object (success, data, ...) } to not have property 'data'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / get all persons / Get all persons invalid parameters.]]>
+        <![CDATA[Test description: Response should not contain data.]]>
+        <![CDATA[Error message: expected { Object (success, data, ...) } to not have property 'data'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (success, data, ...) } to not have property 'data'
+   at Object.eval sandbox-script.js:1:42).]]>
+      </failure>
+    </testcase>
+    <testcase name="Valid response body datatype" time="0.265" classname="PersonsGetAllPersonsGetAllPersonsInvalidParameters">
+      <failure type="AssertionFailure" message="expected undefined to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / get all persons / Get all persons invalid parameters.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: expected undefined to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a string
+   at Object.eval sandbox-script.js:2:42).]]>
+      </failure>
+    </testcase>
+    <testcase name="User friendly messages" time="0.265" classname="PersonsGetAllPersonsGetAllPersonsInvalidParameters">
+      <failure type="AssertionFailure" message="expected true to equal false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / get all persons / Get all persons invalid parameters.]]>
+        <![CDATA[Test description: User friendly messages.]]>
+        <![CDATA[Error message: expected true to equal false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected true to equal false
+   at Object.eval sandbox-script.js:3:42).]]>
+      </failure>
+    </testcase>
+    <testcase name="Bad request!" time="0.265" classname="PersonsGetAllPersonsGetAllPersonsInvalidParameters">
+      <failure type="AssertionFailure" message="expected 200 to be one of [ 400, 422 ]">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / get all persons / Get all persons invalid parameters.]]>
+        <![CDATA[Test description: Bad request!.]]>
+        <![CDATA[Error message: expected 200 to be one of [ 400, 422 ].]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to be one of [ 400, 422 ]
+   at Object.eval sandbox-script.js:4:42).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Persons / get all persons / Get all persons valid parameters" id="578dd829-3909-498b-b63e-c40d2f525530" timestamp="2025-02-22T08:40:29.665Z" tests="8" failures="1" errors="0" time="0.245">
+    <testcase name="Content-Type is not missing" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters"/>
+    <testcase name="Response time is less than 3000ms" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters"/>
+    <testcase name="Response should  contain data" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters"/>
+    <testcase name="Valid response body datatype" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters">
+      <failure type="AssertionFailure" message="Cannot read properties of null (reading 'name')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / get all persons / Get all persons valid parameters.]]>
+        <![CDATA[Test description: Valid response body datatype.]]>
+        <![CDATA[Error message: Cannot read properties of null (reading 'name').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of null (reading 'name')
+   at Object.eval sandbox-script.js:2:43).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate update_time timestamp" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters"/>
+    <testcase name="Validate add_time timestamp" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters"/>
+    <testcase name="vallidating response messages" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters"/>
+    <testcase name="operation successful!" time="0.245" classname="PersonsGetAllPersonsGetAllPersonsValidParameters"/>
+  </testsuite>
+  <testsuite name="Persons / get all persons / Get all persons unauthorised_user" id="476d10a8-1a05-4596-b9ae-91c25ff66d8e" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.215">
+    <testcase name="Content-Type is not missing" time="0.215" classname="PersonsGetAllPersonsGetAllPersonsUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.215" classname="PersonsGetAllPersonsGetAllPersonsUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.215" classname="PersonsGetAllPersonsGetAllPersonsUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.215" classname="PersonsGetAllPersonsGetAllPersonsUnauthorisedUser"/>
+    <testcase name="Content_type is not missing" time="0.215" classname="PersonsGetAllPersonsGetAllPersonsUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.215" classname="PersonsGetAllPersonsGetAllPersonsUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.215" classname="PersonsGetAllPersonsGetAllPersonsUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Persons / get all persons / Get all persons wrong method" id="d69e0e1f-7908-4759-98e7-315bddcc7681" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="2" errors="0" time="0.313">
+    <testcase name="Content-Type is not missing" time="0.313" classname="PersonsGetAllPersonsGetAllPersonsWrongMethod"/>
+    <testcase name="Response time is less than 3000ms" time="0.313" classname="PersonsGetAllPersonsGetAllPersonsWrongMethod"/>
+    <testcase name="wrong request method " time="0.313" classname="PersonsGetAllPersonsGetAllPersonsWrongMethod">
+      <failure type="AssertionFailure" message="expected 400 to equal 405">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / get all persons / Get all persons wrong method.]]>
+        <![CDATA[Test description: wrong request method .]]>
+        <![CDATA[Error message: expected 400 to equal 405.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 405
+   at Object.eval sandbox-script.js:1:45).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.313" classname="PersonsGetAllPersonsGetAllPersonsWrongMethod"/>
+    <testcase name="wrong request method" time="0.313" classname="PersonsGetAllPersonsGetAllPersonsWrongMethod">
+      <failure type="AssertionFailure" message="expected 'Name must be given.' to include 'this is a wrong request method.'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Persons / get all persons / Get all persons wrong method.]]>
+        <![CDATA[Test description: wrong request method.]]>
+        <![CDATA[Error message: expected 'Name must be given.' to include 'this is a wrong request method.'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Name must be given.' to include 'this is a wrong request method.'
+   at Object.eval sandbox-script.js:3:45).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validating response body datatype" time="0.313" classname="PersonsGetAllPersonsGetAllPersonsWrongMethod"/>
+  </testsuite>
+  <testsuite name="Currency / Get supported currency / Get all supported currencies" id="ac6f87a0-6725-4c46-a8f2-d7b49f6613cd" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.221">
+    <testcase name="Content-Type is not missing" time="0.221" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrencies"/>
+    <testcase name="Response time is less than 3000ms" time="0.221" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrencies"/>
+    <testcase name="validating responsebody datatype" time="0.221" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrencies"/>
+    <testcase name="validating responsebody message" time="0.221" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrencies"/>
+  </testsuite>
+  <testsuite name="Currency / Get supported currency / Get all supported currencies - unauthorised_user" id="a7ad0fad-6089-44f3-a861-18d8ccff49c7" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="0" errors="0" time="0.216">
+    <testcase name="Content-Type is not missing" time="0.216" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.216" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.216" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.216" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.216" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.216" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Currency / Get supported currency / Get all supported currencies - wrong request method" id="e56c21a0-5bf9-45e2-b3ae-bcf850708a33" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="1" errors="0" time="0.203">
+    <testcase name="Content-Type is not missing" time="0.203" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesWrongRequestMethod"/>
+    <testcase name="Response time is less than 3000ms" time="0.203" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesWrongRequestMethod"/>
+    <testcase name="wrong request method " time="0.203" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesWrongRequestMethod">
+      <failure type="AssertionFailure" message="expected 404 to equal 405">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Currency / Get supported currency / Get all supported currencies - wrong request method.]]>
+        <![CDATA[Test description: wrong request method .]]>
+        <![CDATA[Error message: expected 404 to equal 405.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 404 to equal 405
+   at Object.eval sandbox-script.js:1:48).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.203" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesWrongRequestMethod"/>
+    <testcase name="wrong request method" time="0.203" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesWrongRequestMethod"/>
+    <testcase name="Validating response body datatype" time="0.203" classname="CurrencyGetSupportedCurrencyGetAllSupportedCurrenciesWrongRequestMethod"/>
+  </testsuite>
+  <testsuite name="DealFields / Get dealfields / Get all deal fields" id="c60cd352-de13-4dde-8609-706cccea8742" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="0" errors="0" time="0.308">
+    <testcase name="Content-Type is not missing" time="0.308" classname="DealFieldsGetDealfieldsGetAllDealFields"/>
+    <testcase name="Response time is less than 3000ms" time="0.308" classname="DealFieldsGetDealfieldsGetAllDealFields"/>
+    <testcase name="operation is successful" time="0.308" classname="DealFieldsGetDealfieldsGetAllDealFields"/>
+    <testcase name="Status code is 200" time="0.308" classname="DealFieldsGetDealfieldsGetAllDealFields"/>
+    <testcase name="valid response body structure" time="0.308" classname="DealFieldsGetDealfieldsGetAllDealFields"/>
+  </testsuite>
+  <testsuite name="DealFields / Get dealfields / Get all deal fields - unauthorised_user" id="dc00bcea-8e54-416d-a349-61c640b08744" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.234">
+    <testcase name="Content-Type is not missing" time="0.234" classname="DealFieldsGetDealfieldsGetAllDealFieldsUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.234" classname="DealFieldsGetDealfieldsGetAllDealFieldsUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.234" classname="DealFieldsGetDealfieldsGetAllDealFieldsUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.234" classname="DealFieldsGetDealfieldsGetAllDealFieldsUnauthorisedUser"/>
+    <testcase name="Content_type is not missing" time="0.234" classname="DealFieldsGetDealfieldsGetAllDealFieldsUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.234" classname="DealFieldsGetDealfieldsGetAllDealFieldsUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.234" classname="DealFieldsGetDealfieldsGetAllDealFieldsUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="DealFields / Get dealfields / Get all deal fields - invalid parameter" id="9ce0db0d-82cb-41f6-b6e4-7bc3588ad855" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="3" errors="0" time="0.227">
+    <testcase name="Content-Type is not missing" time="0.227" classname="DealFieldsGetDealfieldsGetAllDealFieldsInvalidParameter"/>
+    <testcase name="Response time is less than 3000ms" time="0.227" classname="DealFieldsGetDealfieldsGetAllDealFieldsInvalidParameter"/>
+    <testcase name="This is a bad request" time="0.227" classname="DealFieldsGetDealfieldsGetAllDealFieldsInvalidParameter">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: DealFields / Get dealfields / Get all deal fields - invalid parameter.]]>
+        <![CDATA[Test description: This is a bad request.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:51).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.227" classname="DealFieldsGetDealfieldsGetAllDealFieldsInvalidParameter"/>
+    <testcase name="Invalid parameter" time="0.227" classname="DealFieldsGetDealfieldsGetAllDealFieldsInvalidParameter">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: DealFields / Get dealfields / Get all deal fields - invalid parameter.]]>
+        <![CDATA[Test description: Invalid parameter.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:51).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validating response body datatype" time="0.227" classname="DealFieldsGetDealfieldsGetAllDealFieldsInvalidParameter">
+      <failure type="AssertionFailure" message="expected true to be false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: DealFields / Get dealfields / Get all deal fields - invalid parameter.]]>
+        <![CDATA[Test description: Validating response body datatype.]]>
+        <![CDATA[Error message: expected true to be false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected true to be false
+   at Object.eval sandbox-script.js:4:51).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="DealFields / Add a new dealField / Add a new deal field" id="f18ae395-47d9-438f-9e12-733b73b673ff" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="1" errors="0" time="0.367">
+    <testcase name="Content-Type is not missing" time="0.367" classname="DealFieldsAddANewDealFieldAddANewDealField"/>
+    <testcase name="Response time is less than 3000ms" time="0.367" classname="DealFieldsAddANewDealFieldAddANewDealField"/>
+    <testcase name="status code is right" time="0.367" classname="DealFieldsAddANewDealFieldAddANewDealField">
+      <failure type="AssertionFailure" message="expected 200 to equal 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: DealFields / Add a new dealField / Add a new deal field.]]>
+        <![CDATA[Test description: status code is right.]]>
+        <![CDATA[Error message: expected 200 to equal 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 201
+   at Object.eval sandbox-script.js:1:52).]]>
+      </failure>
+    </testcase>
+    <testcase name="add_time should be a valid timestamp" time="0.367" classname="DealFieldsAddANewDealFieldAddANewDealField"/>
+    <testcase name="Data type and properties of response body are correct" time="0.367" classname="DealFieldsAddANewDealFieldAddANewDealField"/>
+  </testsuite>
+  <testsuite name="LeadLabel / Get leadLabels / Get all lead labels" id="ca699f10-e649-4707-bebf-fb32c3adaf93" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="0" errors="0" time="0.213">
+    <testcase name="Content-Type is not missing" time="0.213" classname="LeadLabelGetLeadLabelsGetAllLeadLabels"/>
+    <testcase name="Response time is less than 3000ms" time="0.213" classname="LeadLabelGetLeadLabelsGetAllLeadLabels"/>
+    <testcase name="Validate response structure and values" time="0.213" classname="LeadLabelGetLeadLabelsGetAllLeadLabels"/>
+    <testcase name="Status code is 200" time="0.213" classname="LeadLabelGetLeadLabelsGetAllLeadLabels"/>
+    <testcase name="response body is in form of array" time="0.213" classname="LeadLabelGetLeadLabelsGetAllLeadLabels"/>
+  </testsuite>
+  <testsuite name="LeadLabel / Get leadLabels / Get all lead labels - authorised user" id="ce3ff95f-037d-4211-bc36-c210bf9ce3f0" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.202">
+    <testcase name="Content-Type is not missing" time="0.202" classname="LeadLabelGetLeadLabelsGetAllLeadLabelsAuthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.202" classname="LeadLabelGetLeadLabelsGetAllLeadLabelsAuthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.202" classname="LeadLabelGetLeadLabelsGetAllLeadLabelsAuthorisedUser"/>
+    <testcase name="Response body is an object" time="0.202" classname="LeadLabelGetLeadLabelsGetAllLeadLabelsAuthorisedUser"/>
+    <testcase name="Content_type is not missing" time="0.202" classname="LeadLabelGetLeadLabelsGetAllLeadLabelsAuthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.202" classname="LeadLabelGetLeadLabelsGetAllLeadLabelsAuthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.202" classname="LeadLabelGetLeadLabelsGetAllLeadLabelsAuthorisedUser"/>
+  </testsuite>
+  <testsuite name="Lead / add a lead / Add a lead - positive test case" id="4bfee8ab-a26b-452c-8d0a-2b80031dc142" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.395">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Unexpected token 'B' at 1:1
+Bad Request
+^
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.395" classname="LeadAddALeadAddALeadPositiveTestCase"/>
+    <testcase name="Response time is less than 3000ms" time="0.395" classname="LeadAddALeadAddALeadPositiveTestCase"/>
+  </testsuite>
+  <testsuite name="Lead / add a lead / Add a lead - positive test case Copy" id="ffc14b63-5cbd-4112-838f-4884f3c0e83b" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.315">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Unexpected token 'B' at 1:1
+Bad Request
+^
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.315" classname="LeadAddALeadAddALeadPositiveTestCaseCopy"/>
+    <testcase name="Response time is less than 3000ms" time="0.315" classname="LeadAddALeadAddALeadPositiveTestCaseCopy"/>
+  </testsuite>
+  <testsuite name="Lead / add a lead / Add a lead - unauthorised user" id="eba9d279-3df4-472a-8d1a-29b3840466d4" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.251">
+    <testcase name="Content-Type is not missing" time="0.251" classname="LeadAddALeadAddALeadUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.251" classname="LeadAddALeadAddALeadUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.251" classname="LeadAddALeadAddALeadUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.251" classname="LeadAddALeadAddALeadUnauthorisedUser"/>
+    <testcase name="Content_type is not missing" time="0.251" classname="LeadAddALeadAddALeadUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.251" classname="LeadAddALeadAddALeadUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.251" classname="LeadAddALeadAddALeadUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Lead / add a lead / Add a lead - invalid user_id" id="8836fbc0-5f41-4840-b382-ad02333d3ce2" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.178">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Unexpected token 'B' at 1:1
+Bad Request
+^
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.178" classname="LeadAddALeadAddALeadInvalidUserId"/>
+    <testcase name="Response time is less than 3000ms" time="0.178" classname="LeadAddALeadAddALeadInvalidUserId"/>
+  </testsuite>
+  <testsuite name="Lead / get one lead / Get one lead" id="e8546588-ffe3-465f-995c-903471c2644f" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.209">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of null (reading 'id')
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.209" classname="LeadGetOneLeadGetOneLead"/>
+    <testcase name="Response time is less than 3000ms" time="0.209" classname="LeadGetOneLeadGetOneLead"/>
+  </testsuite>
+  <testsuite name="Lead / get one lead / Get one lead - unautorised_user" id="70fe4926-ee9c-4294-b3a7-4984ecbe0a85" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.292">
+    <testcase name="Content-Type is not missing" time="0.292" classname="LeadGetOneLeadGetOneLeadUnautorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.292" classname="LeadGetOneLeadGetOneLeadUnautorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.292" classname="LeadGetOneLeadGetOneLeadUnautorisedUser"/>
+    <testcase name="Response body is an object" time="0.292" classname="LeadGetOneLeadGetOneLeadUnautorisedUser"/>
+    <testcase name="Content_type is not missing" time="0.292" classname="LeadGetOneLeadGetOneLeadUnautorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.292" classname="LeadGetOneLeadGetOneLeadUnautorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.292" classname="LeadGetOneLeadGetOneLeadUnautorisedUser"/>
+  </testsuite>
+  <testsuite name="Lead / get all leads / Get all leads" id="9487545f-0546-4aa4-86f3-2b273b840742" timestamp="2025-02-22T08:40:29.665Z" tests="3" failures="1" errors="1" time="0.221">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Error: expected { success: false, data: null, …(3) } to have property 'success' of true, but got false
+    at Object.eval (eval at exec (evalmachine.<anonymous>:66:1819788), <anonymous>:15:29)
+    at u.exec (evalmachine.<anonymous>:66:1819823)
+    at t.exports (evalmachine.<anonymous>:66:5848)
+    at Object.<anonymous> (evalmachine.<anonymous>:66:8247)
+    at evalmachine.<anonymous>:15:26
+    at Array.forEach (<anonymous>)
+    at Object.emit (evalmachine.<anonymous>:14:59)
+    at evalmachine.<anonymous>:59:24
+    at evalmachine.<anonymous>:5:21
+    at evalmachine.<anonymous>:6:18
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.221" classname="LeadGetAllLeadsGetAllLeads"/>
+    <testcase name="Response time is less than 3000ms" time="0.221" classname="LeadGetAllLeadsGetAllLeads"/>
+    <testcase name="Status code is 200" time="0.221" classname="LeadGetAllLeadsGetAllLeads">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Lead / get all leads / Get all leads.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:61).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lead / get all leads / Get all leads - invalid query param" id="53a71dc4-6c4c-49c1-a32b-c7e6acfc7b7b" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="0" errors="0" time="0.202">
+    <testcase name="Content-Type is not missing" time="0.202" classname="LeadGetAllLeadsGetAllLeadsInvalidQueryParam"/>
+    <testcase name="Response time is less than 3000ms" time="0.202" classname="LeadGetAllLeadsGetAllLeadsInvalidQueryParam"/>
+    <testcase name="valid responsebody structure" time="0.202" classname="LeadGetAllLeadsGetAllLeadsInvalidQueryParam"/>
+    <testcase name="valid responsebody message" time="0.202" classname="LeadGetAllLeadsGetAllLeadsInvalidQueryParam"/>
+    <testcase name="Status code is 400" time="0.202" classname="LeadGetAllLeadsGetAllLeadsInvalidQueryParam"/>
+  </testsuite>
+  <testsuite name="Lead / get all leads / Get all leads - invalid sorting" id="e7593364-b5dc-412d-84ee-53e2756d8353" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="0" errors="0" time="0.210">
+    <testcase name="Content-Type is not missing" time="0.210" classname="LeadGetAllLeadsGetAllLeadsInvalidSorting"/>
+    <testcase name="Response time is less than 3000ms" time="0.210" classname="LeadGetAllLeadsGetAllLeadsInvalidSorting"/>
+    <testcase name="valid responsebody structure" time="0.210" classname="LeadGetAllLeadsGetAllLeadsInvalidSorting"/>
+    <testcase name="valid responsebody message" time="0.210" classname="LeadGetAllLeadsGetAllLeadsInvalidSorting"/>
+    <testcase name="Status code is 400" time="0.210" classname="LeadGetAllLeadsGetAllLeadsInvalidSorting"/>
+  </testsuite>
+  <testsuite name="Lead / get all leads / Get all leads - unauthorised user" id="052c8056-752c-47f1-acb5-709da0119de0" timestamp="2025-02-22T08:40:29.665Z" tests="7" failures="0" errors="0" time="0.319">
+    <testcase name="Content-Type is not missing" time="0.319" classname="LeadGetAllLeadsGetAllLeadsUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.319" classname="LeadGetAllLeadsGetAllLeadsUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.319" classname="LeadGetAllLeadsGetAllLeadsUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.319" classname="LeadGetAllLeadsGetAllLeadsUnauthorisedUser"/>
+    <testcase name="Content_type is not missing" time="0.319" classname="LeadGetAllLeadsGetAllLeadsUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.319" classname="LeadGetAllLeadsGetAllLeadsUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.319" classname="LeadGetAllLeadsGetAllLeadsUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Pipelines / Create pipelines / Add a new pipeline" id="649df018-2e35-4f7c-ac42-428bd9dc3ab3" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.228">
+    <testcase name="Content-Type is not missing" time="0.228" classname="PipelinesCreatePipelinesAddANewPipeline"/>
+    <testcase name="Response time is less than 3000ms" time="0.228" classname="PipelinesCreatePipelinesAddANewPipeline"/>
+    <testcase name="Status code is 201" time="0.228" classname="PipelinesCreatePipelinesAddANewPipeline"/>
+    <testcase name="Validate response structure and values" time="0.228" classname="PipelinesCreatePipelinesAddANewPipeline"/>
+  </testsuite>
+  <testsuite name="Pipelines / Create pipelines / Add a new pipeline invalid datatype" id="25f164df-d735-480d-aa9f-ae84c7773120" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="0" errors="0" time="0.203">
+    <testcase name="Content-Type is not missing" time="0.203" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+    <testcase name="Response time is less than 3000ms" time="0.203" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+    <testcase name="valid responsebody structure" time="0.203" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+    <testcase name="valid responsebody message" time="0.203" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+    <testcase name="Status code is 400" time="0.203" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+  </testsuite>
+  <testsuite name="Pipelines / Create pipelines / Add a new pipeline invalid datatype" id="fc018aff-d6c7-4aac-b996-f902dd49cdc5" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.239">
+    <testcase name="Content-Type is not missing" time="0.239" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+    <testcase name="Response time is less than 3000ms" time="0.239" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+    <testcase name="Status code is 201" time="0.239" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+    <testcase name="Validate response structure and values" time="0.239" classname="PipelinesCreatePipelinesAddANewPipelineInvalidDatatype"/>
+  </testsuite>
+  <testsuite name="Pipelines / Create pipelines / Add a new pipeline - unauthorised_user" id="caeb7f37-687c-497d-9a6c-3902dc081c15" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="0" errors="0" time="0.213">
+    <testcase name="Content-Type is not missing" time="0.213" classname="PipelinesCreatePipelinesAddANewPipelineUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.213" classname="PipelinesCreatePipelinesAddANewPipelineUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.213" classname="PipelinesCreatePipelinesAddANewPipelineUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.213" classname="PipelinesCreatePipelinesAddANewPipelineUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.213" classname="PipelinesCreatePipelinesAddANewPipelineUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.213" classname="PipelinesCreatePipelinesAddANewPipelineUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Pipelines / Get all pipelines / Get all pipelines" id="0788283d-87d8-40e5-98f1-2e7058f89e16" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="1" errors="0" time="0.245">
+    <testcase name="Content-Type is not missing" time="0.245" classname="PipelinesGetAllPipelinesGetAllPipelines"/>
+    <testcase name="Response time is less than 3000ms" time="0.245" classname="PipelinesGetAllPipelinesGetAllPipelines"/>
+    <testcase name="Validate response structure and values" time="0.245" classname="PipelinesGetAllPipelinesGetAllPipelines">
+      <failure type="AssertionFailure" message="expected null to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Pipelines / Get all pipelines / Get all pipelines.]]>
+        <![CDATA[Test description: Validate response structure and values.]]>
+        <![CDATA[Error message: expected null to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected null to be a string
+   at Object.eval sandbox-script.js:1:69).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.245" classname="PipelinesGetAllPipelinesGetAllPipelines"/>
+  </testsuite>
+  <testsuite name="Pipelines / Get all pipelines / Get all pipelines - unauthorised user" id="69fc29b9-c169-4971-a4d6-0c4464fcbc2b" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="0" errors="0" time="0.213">
+    <testcase name="Content-Type is not missing" time="0.213" classname="PipelinesGetAllPipelinesGetAllPipelinesUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.213" classname="PipelinesGetAllPipelinesGetAllPipelinesUnauthorisedUser"/>
+    <testcase name="This is an unauthorised user " time="0.213" classname="PipelinesGetAllPipelinesGetAllPipelinesUnauthorisedUser"/>
+    <testcase name="Response body is an object" time="0.213" classname="PipelinesGetAllPipelinesGetAllPipelinesUnauthorisedUser"/>
+    <testcase name="Endpoint requires authentication" time="0.213" classname="PipelinesGetAllPipelinesGetAllPipelinesUnauthorisedUser"/>
+    <testcase name="Validating response body datatype" time="0.213" classname="PipelinesGetAllPipelinesGetAllPipelinesUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Pipelines / Get all pipelines / Get all pipelines - invalid path" id="e0cb5a2b-52d8-430e-b9e5-1b6dff6053ed" timestamp="2025-02-22T08:40:29.665Z" tests="6" failures="0" errors="0" time="0.217">
+    <testcase name="Content-Type is not missing" time="0.217" classname="PipelinesGetAllPipelinesGetAllPipelinesInvalidPath"/>
+    <testcase name="Response time is less than 3000ms" time="0.217" classname="PipelinesGetAllPipelinesGetAllPipelinesInvalidPath"/>
+    <testcase name="This is an invalid path " time="0.217" classname="PipelinesGetAllPipelinesGetAllPipelinesInvalidPath"/>
+    <testcase name="Response body is an object" time="0.217" classname="PipelinesGetAllPipelinesGetAllPipelinesInvalidPath"/>
+    <testcase name="Endpoint requires authentication" time="0.217" classname="PipelinesGetAllPipelinesGetAllPipelinesInvalidPath"/>
+    <testcase name="Validating response body datatype" time="0.217" classname="PipelinesGetAllPipelinesGetAllPipelinesInvalidPath"/>
+  </testsuite>
+  <testsuite name="Stages / Create stage / Add a new stage" id="196eb76f-45d5-407d-8c25-f9ccdd80170a" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.267">
+    <testcase name="Content-Type is not missing" time="0.267" classname="StagesCreateStageAddANewStage"/>
+    <testcase name="Response time is less than 3000ms" time="0.267" classname="StagesCreateStageAddANewStage"/>
+    <testcase name="Validate response structure and values" time="0.267" classname="StagesCreateStageAddANewStage"/>
+    <testcase name="Status code is 201" time="0.267" classname="StagesCreateStageAddANewStage"/>
+  </testsuite>
+  <testsuite name="Stages / Create stage / Add a new stage- wrong url path" id="a337649a-d417-45e4-9f8a-388f41ed5094" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.278">
+    <testcase name="Content-Type is not missing" time="0.278" classname="StagesCreateStageAddANewStageWrongUrlPath"/>
+    <testcase name="Response time is less than 3000ms" time="0.278" classname="StagesCreateStageAddANewStageWrongUrlPath"/>
+    <testcase name="Verify wrong path response" time="0.278" classname="StagesCreateStageAddANewStageWrongUrlPath"/>
+    <testcase name="Status code is 404" time="0.278" classname="StagesCreateStageAddANewStageWrongUrlPath"/>
+  </testsuite>
+  <testsuite name="Stages / Create stage / Add a new stage - missing required field" id="254af8db-2f55-4cd0-b8b1-8fec28d93f81" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.230">
+    <testcase name="Content-Type is not missing" time="0.230" classname="StagesCreateStageAddANewStageMissingRequiredField"/>
+    <testcase name="Response time is less than 3000ms" time="0.230" classname="StagesCreateStageAddANewStageMissingRequiredField"/>
+    <testcase name="Validate error response structure and values" time="0.230" classname="StagesCreateStageAddANewStageMissingRequiredField"/>
+    <testcase name="Status code is 400" time="0.230" classname="StagesCreateStageAddANewStageMissingRequiredField"/>
+  </testsuite>
+  <testsuite name="Stages / Create stage / Add a new stage - invalid required field" id="658efd37-69ef-4ff9-ab8f-b4c48dd3063d" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.232">
+    <testcase name="Content-Type is not missing" time="0.232" classname="StagesCreateStageAddANewStageInvalidRequiredField"/>
+    <testcase name="Response time is less than 3000ms" time="0.232" classname="StagesCreateStageAddANewStageInvalidRequiredField"/>
+    <testcase name="Validate error response structure and values" time="0.232" classname="StagesCreateStageAddANewStageInvalidRequiredField"/>
+    <testcase name="Status code is 400" time="0.232" classname="StagesCreateStageAddANewStageInvalidRequiredField"/>
+  </testsuite>
+  <testsuite name="Stages / Create stage / Add a new stage - unauthorised user" id="05e6ade9-9970-4326-bc33-2be83fe98cef" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.212">
+    <testcase name="Content-Type is not missing" time="0.212" classname="StagesCreateStageAddANewStageUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.212" classname="StagesCreateStageAddANewStageUnauthorisedUser"/>
+    <testcase name="Validate error response structure and values" time="0.212" classname="StagesCreateStageAddANewStageUnauthorisedUser"/>
+    <testcase name="Status code is 401" time="0.212" classname="StagesCreateStageAddANewStageUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Stages / Get all stages / Get all stages" id="4c28b493-52ae-47a9-9dde-5a4975ab4dc8" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.223">
+    <testcase name="Content-Type is not missing" time="0.223" classname="StagesGetAllStagesGetAllStages"/>
+    <testcase name="Response time is less than 3000ms" time="0.223" classname="StagesGetAllStagesGetAllStages"/>
+    <testcase name="Validate success response structure and values" time="0.223" classname="StagesGetAllStagesGetAllStages"/>
+    <testcase name="Status code is 200" time="0.223" classname="StagesGetAllStagesGetAllStages"/>
+  </testsuite>
+  <testsuite name="Stages / Get all stages / Get all stages - unauthorised user" id="f6dd8c37-7230-4f5c-bfb0-bac8269933ea" timestamp="2025-02-22T08:40:29.665Z" tests="4" failures="0" errors="0" time="0.203">
+    <testcase name="Content-Type is not missing" time="0.203" classname="StagesGetAllStagesGetAllStagesUnauthorisedUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.203" classname="StagesGetAllStagesGetAllStagesUnauthorisedUser"/>
+    <testcase name="Validate error response structure and values" time="0.203" classname="StagesGetAllStagesGetAllStagesUnauthorisedUser"/>
+    <testcase name="Status code is 401" time="0.203" classname="StagesGetAllStagesGetAllStagesUnauthorisedUser"/>
+  </testsuite>
+  <testsuite name="Deal / Add a deal / Add a deal" id="086ec4bc-9a6b-4ad8-aa2f-7fccb25c00e6" timestamp="2025-02-22T08:40:29.665Z" tests="2" failures="0" errors="1" time="0.245">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'id')
+---
+]]></system-err>
+    <testcase name="Content-Type is not missing" time="0.245" classname="DealAddADealAddADeal"/>
+    <testcase name="Response time is less than 3000ms" time="0.245" classname="DealAddADealAddADeal"/>
+  </testsuite>
+  <testsuite name="Deal / Add a deal / Add a deal forbidden user" id="5c00f19c-1611-4e5e-bc2d-d983f3e0c9f5" timestamp="2025-02-22T08:40:29.665Z" tests="5" failures="3" errors="0" time="0.242">
+    <testcase name="Content-Type is not missing" time="0.242" classname="DealAddADealAddADealForbiddenUser"/>
+    <testcase name="Response time is less than 3000ms" time="0.242" classname="DealAddADealAddADealForbiddenUser"/>
+    <testcase name="valid responseBody" time="0.242" classname="DealAddADealAddADealForbiddenUser">
+      <failure type="AssertionFailure" message="expected undefined to be a boolean">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Deal / Add a deal / Add a deal forbidden user.]]>
+        <![CDATA[Test description: valid responseBody.]]>
+        <![CDATA[Error message: expected undefined to be a boolean.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a boolean
+   at Object.eval sandbox-script.js:1:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="valid response structures" time="0.242" classname="DealAddADealAddADealForbiddenUser">
+      <failure type="AssertionFailure" message="expected undefined to be false">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Deal / Add a deal / Add a deal forbidden user.]]>
+        <![CDATA[Test description: valid response structures.]]>
+        <![CDATA[Error message: expected undefined to be false.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be false
+   at Object.eval sandbox-script.js:2:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 403" time="0.242" classname="DealAddADealAddADealForbiddenUser">
+      <failure type="AssertionFailure" message="expected response to have status code 403 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a450e9ff-c09e-4139-8576-b815e345f07d.]]>
+        <![CDATA[Collection name: Testify_project.]]>
+        <![CDATA[Request name: Deal / Add a deal / Add a deal forbidden user.]]>
+        <![CDATA[Test description: Status code is 403.]]>
+        <![CDATA[Error message: expected response to have status code 403 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 403 but got 400
+   at Object.eval sandbox-script.js:3:80).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

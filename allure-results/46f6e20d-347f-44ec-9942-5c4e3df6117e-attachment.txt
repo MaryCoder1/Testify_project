@@ -1,0 +1,8 @@
+{
+  "email": "Claire_Ward74@gmail.com",
+  "access": [
+    {
+      "app": "sales"    }
+  ],
+  "active_flag": false
+}

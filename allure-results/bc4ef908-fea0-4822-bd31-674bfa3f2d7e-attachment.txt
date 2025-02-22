@@ -1,0 +1,21 @@
+{
+  "title": "Licensed Soft Chair",
+  "value": "1500000",
+  "currency": "NGN",
+  "user_id": 23198693,
+  "person_id": {{person_id_1}},
+  "org_id": 15,
+  "pipeline_id": 8,
+  "stage_id": 9,
+  "status": "open",
+  "origin_id": "{{lead_id}}",
+ 
+  "add_time": "2025-02-22T08:37:47.010Z",
+  "won_time": "",
+  "lost_time": "",
+  "close_time": "",
+  "expected_close_date": "2025-03-09",
+  "probability": 80,
+  "lost_reason": "",
+  "visible_to": "3"
+}

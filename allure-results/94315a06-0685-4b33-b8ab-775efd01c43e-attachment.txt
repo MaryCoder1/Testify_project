@@ -1,0 +1,8 @@
+{
+  "email": "Lera35@yahoo.com",
+  "access": [
+    {
+      "app": ""    }
+  ],
+  "active_flag": true
+}
